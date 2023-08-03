@@ -1,0 +1,47 @@
+.tyre{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-image: url("../img/1.jpeg");
+    background-size: contain;
+    animation-name: tyre;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes tyre {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.box{
+    width: 1000px;
+    height: 600px;
+    animation-name: box;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes box {
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(100%);
+    }
+}
+.intro{
+    margin: auto;
+}
+.intro h1{
+    color: red;
+}
+.t{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: brown;
+}
